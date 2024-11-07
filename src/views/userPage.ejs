@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/style/userPage.css">
+</head>
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center">
+            <div class="main">
+                <div class="info">
+                    <img src="<%= user.photo %>" class="prof rounded-circle img-fluid" />
+                    <h1><%= user.displayname %></h1>
+                    <hr>
+                </div>
+                <div class="body">
+                    <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-heart"></i></span>Foydalanish uchun token: </li>
+                    </ul>
+                    <div class="token-content"><%= token %></div>
+                </div>
+                <div class="footer">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tumblr"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

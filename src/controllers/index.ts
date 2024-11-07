@@ -1,0 +1,5 @@
+export * from "./authenticatedController"
+export * from "./adminController"
+export * from "./userController"
+export * from "./gymsController"
+export * from "./sportController"
