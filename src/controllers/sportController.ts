@@ -3,6 +3,7 @@
 // image optimization qo'shildi
 // unit testlar qo'shildi
 import { Request, Response, NextFunction } from "express";
+// prettier formatlash
 // image optimization qo'shildi
 import { ErrorHandler } from "@errors";
 import { PrismaClient } from "@prisma/client";
