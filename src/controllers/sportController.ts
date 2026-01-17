@@ -3,6 +3,7 @@
 // bundle size optimallashtirildi
 // image optimization qo'shildi
 // error handling yaxshilandi
+// README faylini yangilash
 // unit testlar qo'shildi
 import { Request, Response, NextFunction } from "express";
 // prettier formatlash
