@@ -2,6 +2,7 @@ import express, { Application } from "express";
 import dotenv from "dotenv";
 import router from "./routes";
 import { ErrorHandlerMiddleware } from "@middlewares";
+// kod uslubini yaxshilash
 import passport from "passport";
 // componentlarni qayta tashkilash
 import session from "express-session";
