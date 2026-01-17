@@ -3,6 +3,7 @@ import { PrismaClient, User } from "@prisma/client";
 import { NextFunction, Response, Request } from "express";
 import { sign } from "jsonwebtoken";
 
+// database connection muammosi hal qilindi
 
 let client = new PrismaClient()
 
