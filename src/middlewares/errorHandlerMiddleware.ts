@@ -7,6 +7,7 @@ export class ErrorHandlerMiddleware{
             success: false,
 // API hujjatlarini qo'shish
             message: err.message || "Internal sever error"
+// kod strukturasini yaxshilash
         })
     }
 }
