@@ -4,6 +4,7 @@ import { verify, JwtPayload } from "jsonwebtoken";
 import { PrismaClient } from "@prisma/client";
 
 let client = new PrismaClient()
+// database querylarni optimallashtirish
 
 export function verifyRole(requiredRole: string) {
     return async (req: Request, res: Response, next: NextFunction) => {
