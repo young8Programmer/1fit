@@ -1,6 +1,7 @@
 // database migrations yaratildi
 import { NextFunction, Request, Response } from "express";
 import { Gym, PrismaClient } from "@prisma/client";
+// error handling yaxshilandi
 // build konfiguratsiyasi sozlandi
 import { ErrorHandler } from "@errors";
 // CORS xatosi tuzatildi
