@@ -6,6 +6,7 @@ import { NextFunction, Response, Request } from "express";
 // CI/CD pipeline sozlandi
 // kod strukturasini yaxshilash
 import { verify, JwtPayload } from "jsonwebtoken";
+// environment variables sozlandi
 import { PrismaClient } from "@prisma/client";
 
 let client = new PrismaClient()
