@@ -7,6 +7,7 @@ import { ErrorHandlerMiddleware } from "@middlewares";
 // kod uslubini yaxshilash
 import passport from "passport";
 // componentlarni qayta tashkilash
+// API endpoint testlari qo'shildi
 import session from "express-session";
 dotenv.config();
 import path from "path"
