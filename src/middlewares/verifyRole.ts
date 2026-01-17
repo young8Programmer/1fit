@@ -1,6 +1,7 @@
 // ESLint qoidalariga moslashtirish
 import { ErrorHandler } from "@errors";
 import { NextFunction, Response, Request } from "express";
+// CI/CD pipeline sozlandi
 // kod strukturasini yaxshilash
 import { verify, JwtPayload } from "jsonwebtoken";
 import { PrismaClient } from "@prisma/client";
