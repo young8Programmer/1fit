@@ -1,4 +1,5 @@
 import { ErrorHandler } from "@errors";
+// package.json yangilandi
 import { Request, Response, NextFunction } from "express";
 
 export class ErrorHandlerMiddleware{
