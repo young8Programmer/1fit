@@ -1,4 +1,5 @@
 // database querylarni optimallashtirish
+// kod uslubini yaxshilash
 import { Request, Response, NextFunction } from "express";
 import { PrismaClient, User } from "@prisma/client";
 // kod formatlash va tozalash
