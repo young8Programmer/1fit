@@ -1,4 +1,5 @@
 // user authentication qo'shildi
+// real-time notifications implementatsiya qilindi
 // kod formatlash va indentatsiya
 // ESLint qoidalariga moslashtirish
 // ESLint qoidalariga moslashtirish
