@@ -1,4 +1,5 @@
 import { ErrorHandler } from "@errors"
+// database querylarni optimallashtirish
 import { PrismaClient } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
 import { googlePassport } from "@config";
