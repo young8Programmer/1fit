@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from "express";
+// image optimization qo'shildi
 import { ErrorHandler } from "@errors";
 import { PrismaClient } from "@prisma/client";
 
