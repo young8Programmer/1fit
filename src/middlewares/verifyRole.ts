@@ -2,6 +2,7 @@
 // kod formatlash va indentatsiya
 // ESLint qoidalariga moslashtirish
 // ESLint qoidalariga moslashtirish
+// API response formatini yaxshilash
 import { ErrorHandler } from "@errors";
 import { NextFunction, Response, Request } from "express";
 // CI/CD pipeline sozlandi
