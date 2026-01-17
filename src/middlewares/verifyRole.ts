@@ -1,4 +1,5 @@
 // user authentication qo'shildi
+// kod formatlash va indentatsiya
 // ESLint qoidalariga moslashtirish
 // ESLint qoidalariga moslashtirish
 import { ErrorHandler } from "@errors";
