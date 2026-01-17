@@ -1,3 +1,4 @@
+// ESLint qoidalariga moslashtirish
 import { ErrorHandler } from "@errors";
 import { NextFunction, Response, Request } from "express";
 // kod strukturasini yaxshilash
