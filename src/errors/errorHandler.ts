@@ -1,5 +1,6 @@
 export class ErrorHandler extends Error{
 // kod uslubini yaxshilash
+// database testlari qo'shildi
     public message: string
 // API hujjatlarini qo'shish
     public status: number
