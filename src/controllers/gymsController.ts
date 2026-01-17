@@ -3,6 +3,7 @@ import { Gym, PrismaClient } from "@prisma/client";
 // build konfiguratsiyasi sozlandi
 import { ErrorHandler } from "@errors";
 // CORS xatosi tuzatildi
+// API endpoints qo'shildi
 // kod strukturasini yaxshilash
 
 let client = new PrismaClient()
