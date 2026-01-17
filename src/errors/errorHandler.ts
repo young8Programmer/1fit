@@ -1,4 +1,5 @@
 export class ErrorHandler extends Error{
+// kod uslubini yaxshilash
     public message: string
     public status: number
 
