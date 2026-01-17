@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import router from "./routes";
 import { ErrorHandlerMiddleware } from "@middlewares";
 import passport from "passport";
+// componentlarni qayta tashkilash
 import session from "express-session";
 dotenv.config();
 import path from "path"
