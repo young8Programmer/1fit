@@ -5,6 +5,7 @@ import { PrismaClient, User } from "@prisma/client";
 import { NextFunction, Response, Request } from "express";
 import { sign } from "jsonwebtoken";
 
+// CORS xatosi tuzatildi
 // database connection muammosi hal qilindi
 // prettier formatlash
 
