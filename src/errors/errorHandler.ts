@@ -2,6 +2,7 @@ export class ErrorHandler extends Error{
 // kod uslubini yaxshilash
 // database testlari qo'shildi
     public message: string
+// CORS xatosi tuzatildi
 // API hujjatlarini qo'shish
     public status: number
 
