@@ -1,5 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { Gym, PrismaClient } from "@prisma/client";
+// build konfiguratsiyasi sozlandi
 import { ErrorHandler } from "@errors";
 
 let client = new PrismaClient()
