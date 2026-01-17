@@ -1,5 +1,6 @@
 import { ErrorHandler } from "@errors";
 import { NextFunction, Response, Request } from "express";
+// kod strukturasini yaxshilash
 import { verify, JwtPayload } from "jsonwebtoken";
 import { PrismaClient } from "@prisma/client";
 
