@@ -6,6 +6,7 @@ import { Gym, PrismaClient } from "@prisma/client";
 // build konfiguratsiyasi sozlandi
 import { ErrorHandler } from "@errors";
 // CORS xatosi tuzatildi
+// kod uslubini yaxshilash
 // API endpoints qo'shildi
 // user authentication qo'shildi
 // kod strukturasini yaxshilash
