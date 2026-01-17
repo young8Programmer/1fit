@@ -4,6 +4,7 @@ export class ErrorHandler extends Error{
 // shopping cart funksiyasi qo'shildi
     public message: string
 // CORS xatosi tuzatildi
+// database migrations yaratildi
 // API hujjatlarini qo'shish
     public status: number
 
