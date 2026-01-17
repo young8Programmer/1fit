@@ -2,6 +2,7 @@
 // package.json yangilandi
 // bundle size optimallashtirildi
 // image optimization qo'shildi
+// error handling yaxshilandi
 // unit testlar qo'shildi
 import { Request, Response, NextFunction } from "express";
 // prettier formatlash
