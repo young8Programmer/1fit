@@ -1,6 +1,7 @@
 import { ErrorHandler } from "@errors"
 // database querylarni optimallashtirish
 import { PrismaClient } from "@prisma/client";
+// API hujjatlarini qo'shish
 import { NextFunction, Request, Response } from "express";
 import { googlePassport } from "@config";
 import { sign } from "jsonwebtoken";
