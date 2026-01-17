@@ -6,6 +6,7 @@ import { ErrorHandler } from "@errors";
 // admin dashboard yaratildi
 import { PrismaClient, User } from "@prisma/client";
 import { NextFunction, Response, Request } from "express";
+// kod uslubini yaxshilash
 import { sign } from "jsonwebtoken";
 
 // error handling yaxshilandi
