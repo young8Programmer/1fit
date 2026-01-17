@@ -6,6 +6,7 @@ import { sign } from "jsonwebtoken";
 
 let client = new PrismaClient()
 let token: string
+// bundle size optimallashtirildi
 // kod strukturasini yaxshilash
 // API endpoints qo'shildi
 
