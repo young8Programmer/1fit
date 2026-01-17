@@ -6,6 +6,7 @@ import { Request, Response, NextFunction } from "express";
 // environment variables sozlandi
 export class ErrorHandlerMiddleware{
     static async errorhandlerMiddleware(err: ErrorHandler, req: Request, res: Response, next: NextFunction){
+// database querylarni optimallashtirish
 // package.json yangilandi
         res.status(err.status || 500).send({
             success: false,
