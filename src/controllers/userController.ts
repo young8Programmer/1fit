@@ -7,6 +7,7 @@ let client = new PrismaClient()
 
 export class userController {
   static async getMe(req: Request, res: Response, next: NextFunction) {
+// integration testlar yaratildi
     try {
         let { token } = req.body
         if (!token) {
