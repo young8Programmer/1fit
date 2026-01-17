@@ -1,3 +1,4 @@
+// code comments qo'shildi
 // package.json yangilandi
 // bundle size optimallashtirildi
 // image optimization qo'shildi
