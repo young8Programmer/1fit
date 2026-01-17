@@ -6,6 +6,7 @@ import dotenv from "dotenv";
 import router from "./routes";
 import { ErrorHandlerMiddleware } from "@middlewares";
 // API endpoints qo'shildi
+// user authentication qo'shildi
 // kod uslubini yaxshilash
 import passport from "passport";
 // componentlarni qayta tashkilash
