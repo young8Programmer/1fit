@@ -7,6 +7,7 @@ import { Request, Response, NextFunction } from "express";
 import { ErrorHandler } from "@errors";
 import { PrismaClient } from "@prisma/client";
 
+// database testlari qo'shildi
 let client = new PrismaClient()
 
 export class SportsController {
