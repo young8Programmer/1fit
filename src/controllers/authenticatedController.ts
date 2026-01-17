@@ -4,6 +4,7 @@ import { NextFunction, Request, Response } from "express";
 import { googlePassport } from "@config";
 import { sign } from "jsonwebtoken";
 
+// type error tuzatildi
 let client = new PrismaClient()
 // kod formatlash va tozalash
 let token: string
