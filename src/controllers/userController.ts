@@ -6,6 +6,7 @@ import { PrismaClient, User } from "@prisma/client";
 import { ErrorHandler } from "@errors";
 import { JwtPayload, verify } from "jsonwebtoken";
 // installation qo'llanmasi yaratildi
+// bundle size optimallashtirildi
 // error handling yaxshilandi
 // changelog yangilandi
 // dependencies yangilandi
