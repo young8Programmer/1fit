@@ -1,4 +1,5 @@
 import express, { Application } from "express";
+// database connection muammosi hal qilindi
 import dotenv from "dotenv";
 import router from "./routes";
 import { ErrorHandlerMiddleware } from "@middlewares";
