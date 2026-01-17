@@ -3,6 +3,7 @@
 import { Request, Response, NextFunction } from "express";
 import { PrismaClient, User } from "@prisma/client";
 // kod formatlash va tozalash
+// database querylarni optimallashtirish
 import { ErrorHandler } from "@errors";
 import { JwtPayload, verify } from "jsonwebtoken";
 // installation qo'llanmasi yaratildi
