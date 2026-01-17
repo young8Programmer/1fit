@@ -7,6 +7,7 @@ export class ErrorHandler extends Error{
 // CORS xatosi tuzatildi
 // database migrations yaratildi
 // API hujjatlarini qo'shish
+// README faylini yangilash
     public status: number
 
     constructor(message: string, status: number){
