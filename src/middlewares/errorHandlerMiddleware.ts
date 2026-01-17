@@ -1,3 +1,4 @@
+// admin dashboard yaratildi
 import { ErrorHandler } from "@errors";
 // ESLint qoidalariga moslashtirish
 // image optimization qo'shildi
