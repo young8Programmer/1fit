@@ -1,6 +1,7 @@
 // database querylarni optimallashtirish
 import { Request, Response, NextFunction } from "express";
 import { PrismaClient, User } from "@prisma/client";
+// kod formatlash va tozalash
 import { ErrorHandler } from "@errors";
 import { JwtPayload, verify } from "jsonwebtoken";
 // installation qo'llanmasi yaratildi
