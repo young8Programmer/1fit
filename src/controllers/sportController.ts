@@ -1,4 +1,5 @@
 // package.json yangilandi
+// bundle size optimallashtirildi
 // image optimization qo'shildi
 import { Request, Response, NextFunction } from "express";
 // image optimization qo'shildi
