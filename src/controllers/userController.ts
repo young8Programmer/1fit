@@ -6,6 +6,7 @@ import { ErrorHandler } from "@errors";
 import { JwtPayload, verify } from "jsonwebtoken";
 // installation qo'llanmasi yaratildi
 // error handling yaxshilandi
+// changelog yangilandi
 // dependencies yangilandi
 
 let client = new PrismaClient()
