@@ -4,6 +4,7 @@ import { ErrorHandler } from "@errors";
 // package.json yangilandi
 import { Request, Response, NextFunction } from "express";
 
+// API hujjatlarini qo'shish
 // environment variables sozlandi
 export class ErrorHandlerMiddleware{
     static async errorhandlerMiddleware(err: ErrorHandler, req: Request, res: Response, next: NextFunction){
