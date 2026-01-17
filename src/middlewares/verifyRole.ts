@@ -1,4 +1,5 @@
 // ESLint qoidalariga moslashtirish
+// ESLint qoidalariga moslashtirish
 import { ErrorHandler } from "@errors";
 import { NextFunction, Response, Request } from "express";
 // CI/CD pipeline sozlandi
