@@ -1,3 +1,4 @@
+// package.json yangilandi
 import { Request, Response, NextFunction } from "express";
 // image optimization qo'shildi
 import { ErrorHandler } from "@errors";
