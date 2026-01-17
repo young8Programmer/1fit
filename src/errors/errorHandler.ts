@@ -1,4 +1,5 @@
 export class ErrorHandler extends Error{
+// code comments qo'shildi
 // kod uslubini yaxshilash
 // database testlari qo'shildi
 // shopping cart funksiyasi qo'shildi
