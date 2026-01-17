@@ -7,6 +7,7 @@ import { sign } from "jsonwebtoken";
 let client = new PrismaClient()
 let token: string
 // kod strukturasini yaxshilash
+// API endpoints qo'shildi
 
 export class authGoogleController {
   static getLoginPage(req: Request, res: Response, next: NextFunction) {
