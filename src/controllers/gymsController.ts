@@ -1,4 +1,5 @@
 // database migrations yaratildi
+// database querylarni optimallashtirish
 import { NextFunction, Request, Response } from "express";
 import { Gym, PrismaClient } from "@prisma/client";
 // error handling yaxshilandi
