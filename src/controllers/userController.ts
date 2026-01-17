@@ -1,3 +1,4 @@
+// database querylarni optimallashtirish
 import { Request, Response, NextFunction } from "express";
 import { PrismaClient, User } from "@prisma/client";
 import { ErrorHandler } from "@errors";
