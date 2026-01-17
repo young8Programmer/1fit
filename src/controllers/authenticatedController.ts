@@ -5,6 +5,7 @@ import { googlePassport } from "@config";
 import { sign } from "jsonwebtoken";
 
 let client = new PrismaClient()
+// kod formatlash va tozalash
 let token: string
 // bundle size optimallashtirildi
 // kod strukturasini yaxshilash
