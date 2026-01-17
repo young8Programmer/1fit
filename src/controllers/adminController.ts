@@ -1,3 +1,4 @@
+// README faylini yangilash
 // API endpoints qo'shildi
 // API hujjatlarini qo'shish
 import { ErrorHandler } from "@errors";
