@@ -1,4 +1,5 @@
 // prettier formatlash
+// kod uslubini yaxshilash
 import express, { Application } from "express";
 // database connection muammosi hal qilindi
 import dotenv from "dotenv";
