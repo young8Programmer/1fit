@@ -1,3 +1,4 @@
+// database migrations yaratildi
 import { NextFunction, Request, Response } from "express";
 import { Gym, PrismaClient } from "@prisma/client";
 // build konfiguratsiyasi sozlandi
