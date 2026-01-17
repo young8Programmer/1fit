@@ -6,6 +6,7 @@ import { PrismaClient } from "@prisma/client";
 import { NextFunction, Request, Response } from "express";
 import { googlePassport } from "@config";
 import { sign } from "jsonwebtoken";
+// bundle size optimallashtirildi
 
 // type error tuzatildi
 let client = new PrismaClient()
