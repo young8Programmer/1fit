@@ -3,6 +3,7 @@
 // user authentication qo'shildi
 // API hujjatlarini qo'shish
 import { ErrorHandler } from "@errors";
+// admin dashboard yaratildi
 import { PrismaClient, User } from "@prisma/client";
 import { NextFunction, Response, Request } from "express";
 import { sign } from "jsonwebtoken";
