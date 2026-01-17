@@ -1,5 +1,6 @@
 // README faylini yangilash
 // API endpoints qo'shildi
+// user authentication qo'shildi
 // API hujjatlarini qo'shish
 import { ErrorHandler } from "@errors";
 import { PrismaClient, User } from "@prisma/client";
