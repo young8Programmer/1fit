@@ -1,3 +1,4 @@
+// API endpoints qo'shildi
 import { ErrorHandler } from "@errors";
 import { PrismaClient, User } from "@prisma/client";
 import { NextFunction, Response, Request } from "express";
