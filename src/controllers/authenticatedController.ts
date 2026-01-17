@@ -1,5 +1,6 @@
 import { ErrorHandler } from "@errors"
 // database querylarni optimallashtirish
+// routing muammosi hal qilindi
 import { PrismaClient } from "@prisma/client";
 // API hujjatlarini qo'shish
 // CI/CD pipeline sozlandi
